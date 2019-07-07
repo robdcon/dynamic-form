@@ -17,6 +17,7 @@ class App extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {},
+      data: {},
       result: ''
     };
 
@@ -43,7 +44,8 @@ class App extends Component {
   }
 
   handleAnswerSelected(event) {
-    this.setUserAnswer(event.currentTarget.value);
+    let label = quizQuestions[this.state.counter].label
+    this.setUserAnswer(event.currentTarget.value, label);
 
     if (this.state.questionId < quizQuestions.length) {
       setTimeout(() => this.setNextQuestion(), 300);
@@ -52,13 +54,17 @@ class App extends Component {
     }
   }
 
-  setUserAnswer(answer) {
+  setUserAnswer(answer, label) {
     this.setState((state, props) => ({
       answersCount: {
         ...state.answersCount,
-        [answer]: (state.answersCount[answer] || 0) + 1
+        [label]: answer
       },
-      answer: answer
+      answer: answer,
+      data: {
+        ...state.data,
+         [label]: answer
+      }
     }));
   }
 
