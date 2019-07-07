@@ -13,6 +13,7 @@ class App extends Component {
       counter: 0,
       questionId: 1,
       question: '',
+      label: '',
       answerOptions: [],
       answer: '',
       answersCount: {},
@@ -31,28 +32,14 @@ class App extends Component {
 
     this.setState({
       question: quizQuestions[0].question,
+      label: quizQuestions[0].label,
       answerOptions: answerOptions[0]
     });
   }
 
-  shuffleArray(array) {
-    var currentIndex = array.length,
-      temporaryValue,
-      randomIndex;
-
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
-
-    return array;
+  componentDidUpdate()
+  {
+    console.log(this.state)
   }
 
   handleAnswerSelected(event) {
@@ -83,6 +70,7 @@ class App extends Component {
       counter: counter,
       questionId: questionId,
       question: quizQuestions[counter].question,
+      label: quizQuestions[counter].label,
       answerOptions: quizQuestions[counter].answers,
       answer: ''
     });

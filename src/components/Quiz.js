@@ -31,7 +31,7 @@ function Quiz(props) {
     >
       <div key={props.questionId}>
         <QuestionCount counter={props.questionId} total={props.questionTotal} />
-        <Question content={props.question} />
+        <Question content={props.question} label={props.label}/>
         <ul className="answerOptions">
           {props.answerOptions.map(renderAnswerOptions)}
         </ul>

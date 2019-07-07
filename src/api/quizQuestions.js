@@ -1,6 +1,7 @@
 var quizQuestions = [
   {
       question: "What type of website is it for?",
+      label: "Website_Type",
       answers: [
           {
               type: "radio",
@@ -34,6 +35,7 @@ var quizQuestions = [
   },
   {
       question: "Which of these best describes your web design requirement?",
+      label: "Project_Requirement",
       answers: [
           {
               type: "radio",
@@ -51,6 +53,7 @@ var quizQuestions = [
   },
   {
       question: "What are the objectives of your website?",
+      label: "Website_Objectives",
       answers: [
           {
               type: "checkbox",
@@ -72,6 +75,7 @@ var quizQuestions = [
   },
   {
       question: "What is your estimated budget for this project?",
+      label: "Website_Budget",
       answers: [
           {
               type: "radioradio",
@@ -105,6 +109,7 @@ var quizQuestions = [
   },
   {
       question: "How soon would you like the project to begin?",
+      label: "Project_Start",
       answers: [
           {
               type: "radio",
