@@ -22,13 +22,16 @@ class App extends Component {
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
   }
 
-  componentDidMount() {
-    const shuffledAnswerOptions = quizQuestions.map(question =>
-      this.shuffleArray(question.answers)
+  componentDidMount() 
+  {
+    const answerOptions = quizQuestions.map(question =>
+      question.answers
     );
+
+
     this.setState({
       question: quizQuestions[0].question,
-      answerOptions: shuffledAnswerOptions[0]
+      answerOptions: answerOptions[0]
     });
   }
 

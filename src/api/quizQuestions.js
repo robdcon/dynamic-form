@@ -1,86 +1,134 @@
 var quizQuestions = [
   {
-      question: "What franchise would you rather play a game from?",
+      question: "What type of website is it for?",
       answers: [
           {
               type: "Microsoft",
-              content: "Halo"
+              content: "Blog"
           },
           {
               type: "Nintendo",
-              content: "Pokemon"
+              content: "Business"
           },
           {
               type: "Sony",
-              content: "Uncharted"
+              content: "E-commerce/online store"
+          },
+          {
+              type: "Sony",
+              content: "Informational Website"
+          },
+          {
+              type: "Sony",
+              content: "Non-profit"
+          },
+          {
+              type: "Sony",
+              content: "Personal website"
+          },
+          {
+              type: "Sony",
+              content: "I'm not sure"
+          },
+      ]
+  },
+  {
+      question: "Which of these best describes your web design requirement?",
+      answers: [
+          {
+              type: "Microsoft",
+              content: "Create a new website"
+          },
+          {
+              type: "Nintendo",
+              content: "Major changes to my website"
+          },
+          {
+              type: "Sony",
+              content: "Minor changes to my website"
           }
       ]
   },
   {
-      question: "Which console would you prefer to play with friends?",
+      question: "What are the objectives of your website?",
       answers: [
           {
               type: "Microsoft",
-              content: "X-Box"
+              content: "Help customers find my business online"
           },
           {
               type: "Nintendo",
-              content: "Nintendo 64"
+              content: "Provide information to the public"
           },
           {
               type: "Sony",
-              content: "Playstation 1"
-          }
+              content: "Sell my product or service, taking payments offline"
+          },
+          {
+              type: "Nintendo",
+              content: "Sell my product or service, taking payments online"
+          },
       ]
   },
   {
-      question: "Which of these racing franchises would you prefer to play a game from?",
+      question: "What is your estimated budget for this project?",
       answers: [
           {
               type: "Microsoft",
-              content: "Forza"
+              content: "Less than £250"
           },
           {
               type: "Nintendo",
-              content: "Mario Kart"
+              content: "£250 - £1,000"
           },
           {
               type: "Sony",
-              content: "Gran Turismo"
-          }
+              content: "£1,000 - £2,000"
+          },
+           {
+              type: "Sony",
+              content: "£2,000 - £3,000"
+          },
+          {
+              type: "Sony",
+              content: "£3,000 - £5,000"
+          },
+          {
+              type: "Sony",
+              content: "More than £5,000"
+          },
+          {
+              type: "Sony",
+              content: "I don't know"
+          },
       ]
   },
   {
-      question: "Which of these games do you think is best?",
+      question: "How soon would you like the project to begin?",
       answers: [
           {
               type: "Microsoft",
-              content: "BioShock"
+              content: "ASAP"
           },
           {
               type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
+              content: "In the next few days"
           },
           {
               type: "Sony",
-              content: "Final Fantasy VII"
-          }
-      ]
-  },
-  {
-      question: "What console would you prefer to own?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "X-Box One"
+              content: "In the next few weeks"
           },
-          {
-              type: "Nintendo",
-              content: "Wii U"
+           {
+              type: "Sony",
+              content: "In the next month"
           },
           {
               type: "Sony",
-              content: "Playstation 4"
+              content: "In the next 2-3 months"
+          },
+          {
+              type: "Sony",
+              content: "I would like to discuss this with the pro"
           }
       ]
   }
