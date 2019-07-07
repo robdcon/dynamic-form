@@ -3,31 +3,31 @@ var quizQuestions = [
       question: "What type of website is it for?",
       answers: [
           {
-              type: "Microsoft",
+              type: "radio",
               content: "Blog"
           },
           {
-              type: "Nintendo",
+              type: "radio",
               content: "Business"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "E-commerce/online store"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "Informational Website"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "Non-profit"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "Personal website"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "I'm not sure"
           },
       ]
@@ -36,15 +36,15 @@ var quizQuestions = [
       question: "Which of these best describes your web design requirement?",
       answers: [
           {
-              type: "Microsoft",
+              type: "radio",
               content: "Create a new website"
           },
           {
-              type: "Nintendo",
+              type: "radio",
               content: "Major changes to my website"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "Minor changes to my website"
           }
       ]
@@ -53,19 +53,19 @@ var quizQuestions = [
       question: "What are the objectives of your website?",
       answers: [
           {
-              type: "Microsoft",
+              type: "checkbox",
               content: "Help customers find my business online"
           },
           {
-              type: "Nintendo",
+              type: "checkbox",
               content: "Provide information to the public"
           },
           {
-              type: "Sony",
+              type: "checkbox",
               content: "Sell my product or service, taking payments offline"
           },
           {
-              type: "Nintendo",
+              type: "checkbox",
               content: "Sell my product or service, taking payments online"
           },
       ]
@@ -74,31 +74,31 @@ var quizQuestions = [
       question: "What is your estimated budget for this project?",
       answers: [
           {
-              type: "Microsoft",
+              type: "radioradio",
               content: "Less than £250"
           },
           {
-              type: "Nintendo",
+              type: "radioradio",
               content: "£250 - £1,000"
           },
           {
-              type: "Sony",
+              type: "radioradio",
               content: "£1,000 - £2,000"
           },
            {
-              type: "Sony",
+              type: "radioradio",
               content: "£2,000 - £3,000"
           },
           {
-              type: "Sony",
+              type: "radioradio",
               content: "£3,000 - £5,000"
           },
           {
-              type: "Sony",
+              type: "radioradio",
               content: "More than £5,000"
           },
           {
-              type: "Sony",
+              type: "radioradio",
               content: "I don't know"
           },
       ]
@@ -107,27 +107,27 @@ var quizQuestions = [
       question: "How soon would you like the project to begin?",
       answers: [
           {
-              type: "Microsoft",
+              type: "radio",
               content: "ASAP"
           },
           {
-              type: "Nintendo",
+              type: "radio",
               content: "In the next few days"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "In the next few weeks"
           },
            {
-              type: "Sony",
+              type: "radio",
               content: "In the next month"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "In the next 2-3 months"
           },
           {
-              type: "Sony",
+              type: "radio",
               content: "I would like to discuss this with the pro"
           }
       ]
